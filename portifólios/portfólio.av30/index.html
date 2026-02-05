@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="pt-br" class="light">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <title>Gisseli Rocha</title> 
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+</head>
+<body>
+  <!-- header design -->
+  <nav>
+      <ul class="navlist">
+        <li class="active" name="nav-li"><a href="#home" class="active" name="nav-a">Início</a></li>
+        <li name="nav-li"><a href="#about" name="nav-a">Sobre</a></li>
+        <li name="nav-li"><a href="#skills" name="nav-a">Habilidades</a></li>
+        <li name="nav-li"><a href="#experiencia" name="nav-a">Experiências</a></li>
+        <li name="nav-li"><a href="#projects" name="nav-a">Projetos</a></li>
+        <li name="nav-li"><a href="#contact" name="nav-a">Contato</a></li>
+      </ul>
+
+      
+      <div>
+        <ul class="social-network">
+          <li>
+            <div id="switch" onclick="toggleMode()">
+              <button></button>
+              <span></span>
+            </div>
+          </li>
+          <li><a href="https://www.linkedin.com/in/gisseli-rocha-b232bb362/" target="_blank">
+            <figure id="fig1"></figure>
+          </a></li>
+          <li><a href="https://github.com/GisseliSilva" target="_blank">
+            <figure id="fig2"></figure>
+          </a></li>
+        </ul>
+      </div>
+      
+      <div class="bx bx-menu" id="menu-icon"></div>
+      
+    </nav>
+    
+    <main>
+      <!-- home section -->
+      <section id="home" class="home">
+        <div class="home-presentation">
+          <p class="my-name">meu nome é</p>
+          <h1 id="name">Gisseli</h1>
+          <h1 id="last-name">Rocha</h1>
+          <h3><p>sou</p> Desenvolvedor Web <span><strong>|</strong> Front-end</span></h3>
+          <div class="button">
+            <a href="#projects" class="project-button">Projetos</a>
+            <a href="#contact" class="contact-button">Contato</a>
+          </div>
+        </div>
+        <img class="home-mac" src="./img/mac.png" alt="laptop">
+      </section>
+  
+      <!-- seção sobre mim -->
+      <section class="about" id="about">
+        <div class="about-img">
+          <img src="./img/WhatsApp Image 2026-02-04 at 00.15.02.jpeg" alt="">
+        </div>
+        
+        <div class="about-text">
+          <h2><span>SOBRE</span> MIM</h2>
+          <p>
+            Tenho 18 anos concluí o ensino médio em 2025. Atuei como assistente administrativo na Prefeitura de Itatiaia, onde desenvolvi habilidades como organização, trabalho em equipe e uso do Excel.
+          </p>
+          <p>
+            Atualmente curso Técnico em Desenvolvimento de Sistemas pela Jaguar Land Rover
+            e faço um curso de Frontend no Senai, área pela qual tenho grande interesse.
+          </p>
+            <button class="button-cv">
+              <a href="./assets/" download="CV - Gisseli" class="btn-cv"> Download CV</a>
+            </button>
+            
+          </div>
+          <img src="./img/balls.svg" alt="balls" class="balls">
+      </section>
+      
+      <!-- TECNOLOGIAS -->
+      <section class="skills" id="skills">
+  
+        <div class="line"></div>
+        <div class="tech">
+          <h2>TECNOLOGIAS</h2>
+            <div class="techs">
+                <div class="card">
+                <img src="./img/html-icon.svg" alt="icone html">
+                <p>HTML</p>
+                </div>
+                <div class="card">
+                <img src="./img/css-icon.svg" alt="icone css">
+                <p>CSS</p>
+                </div>
+                <div class="card">
+                <img src="./img/js-icon.svg" alt="icone javascript">
+                <p>JavaScript</p>
+                </div>
+                <div class="card">
+                <img src="./img/python.svg" alt="icone python">
+                <p>Python</p>
+                </div>
+                <div class="card">
+                <img src="./img/sql-icon.svg" alt="icone sql">
+                <p>SQL</p>
+                </div>
+            </div>
+        </div>
+        
+        <!-- FERRAMENTAS -->
+        <div class="line"></div>
+        <div class="tool">
+          <h2>FERRAMENTAS</h2>
+            <div class="tools">
+                <div class="card">
+                <img src="./img/git-icon.svg" alt="icone github">
+                <p>GitHub</p>
+                </div>
+                <div class="card">
+                <img src="./img/vs-code-icon.svg" alt="icone vscode">
+                <p>VSCode</p>
+                </div>
+            </div>
+          
+        </div>
+      </section>
+    </main>
+
+    
+  <!-- EXPERIÊNCIAS -->
+    <section class="experiences" id="experiences">
+    <div class="main-text">
+        <h2>Minhas <span>Experiências</span></h2>
+        <div class="line"></div>
+    </div>
+
+    <div class="experience-cards">
+        <div class="card">
+        <h3>Assistente Administrativo</h3>
+        <p>Prefeitura de Itatiaia | 2023 - 2025</p>
+        <p>Organização de documentos, elaboração de planilhas, auxílio na protocolagem de processos e desenvolvimento de habilidades administrativas.</p>
+        </div>
+
+        <div class="card">
+        <h3>Estudante Técnico em Desenvolvimento de Sistemas</h3>
+        <p>Jaguar Land Rover | 2025 - Atual</p>
+        <p>Aprendizado de lógica de programação, desenvolvimento de projetos práticos e práticas de desenvolvimento front-end e back-end.</p>
+        </div>
+
+        <div class="card">
+        <h3>Curso de Front-end</h3>
+        <p>SENAI | 2025 - Atual</p>
+        <p>Foco em HTML, CSS, JavaScript e boas práticas de desenvolvimento web, com projetos aplicados ao portfólio.</p>
+        </div>
+    </div>
+    </section>
+
+
+
+      
+      <!-- projects section -->
+      <section id="projects" class="projects">
+        <div class="line"></div>
+        <div class="main-text">
+          <h2>Meus <span>Projetos</span></h2>
+        </div>
+  
+        <div class="portfolio-content">
+          
+          <div class="row">
+            <img src="https://images.unsplash.com/photo-1542779283-429940ce8336?w=800&h=600&fit=crop" alt="print pagina de login">
+            <div class="layer">
+              <h5>API Pokémon</h5>
+              <p>Desenvolvimento de uma API no VS Code, com cadastro de aproximadamente 50 pokémons</p>
+              <div class="site-github">
+                <a href="https://gisselisilva.github.io/POKEDEX" target="_blank"><i class='bx bx-link-external' ></i></a>
+                <a href="https://github.com/GisseliSilva/POKEDEX.git" target="_blank"><i class='bx bxl-github' ></i></a>
+              </div>
+            </div>
+          </div>
+          
+          <div class="row">
+            <img src="https://images.unsplash.com/photo-1555421689-491a97ff2040?w=800&h=600&fit=crop" alt="print cronometro">
+            <div class="layer">
+              <h5>Página de Login</h5>
+              <p>sistema de login web, para os usuários fazerem autenticação através de campos para usuário 
+              e senha.</p>
+              <div class="site-github">
+                <a href="https://gisselisilva.github.io/LOGIN" target="_blank"><i class='bx bx-link-external' ></i></a>
+                <a href="https://github.com/GisseliSilva/LOGIN.git" target="_blank"><i class='bx bxl-github' ></i></a>
+              </div>
+            </div>
+          </div>
+        
+          
+          <div class="row">
+            <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop" alt="agregador de links">
+            <div class="layer">
+              <h5>HackÉtica</h5>
+              <p> Projeto em grupo onde desenvolvemos um passaporte digital inovador</p>
+              <div class="site-github">
+                <a href="https://isabelle-andrade.github.io/HACK-ETICA/" target="_blank"><i class='bx bx-link-external' ></i></a>
+                <a href="https://github.com/Isabelle-Andrade/HACK-ETICA.git" target="_blank"><i class='bx bxl-github' ></i></a>
+              </div>
+            </div>
+          </div>
+                    
+        </div>
+  
+      </section>
+  
+    <!----contact section --->
+    <section class="contact" id="contact">
+      <div class="contact-text">
+        <div class="main-text">
+          <h2>Entre em <span>contato</span></h2>
+        </div>
+        
+      </div>
+  
+      <div class="contact-form">
+        <form action="https://formsubmit.co/devfernandorufino@gmail.com" method="POST">
+          <input type="text" name="name" placeholder="Digite seu nome" required>
+          <input type="email" name="email" placeholder="Digite seu melhor e-mail" required>
+          <input type="hidden" name="_captcha" value="false">
+          <textarea type="text" name="text" cols="35" rows="10" placeholder="Como eu posso te ajudar?" required></textarea>
+          <input type="hidden" name="_next" value="https://silver-shortbread-4377d9.netlify.app/#contact">
+          <br>
+          <input type="submit" value="Enviar" class="submit" required>
+        </form>
+      </div>
+  
+      <div class="contact-icons">
+        <a href="https://github.com/GisseliSilva" target="_blank"><i class='bx bxl-github' ></i></a>
+        <a href="https://www.linkedin.com/in/gisseli-rocha-b232bb362/" target="_blank"><i class='bx bxl-linkedin' ></i></a>
+        <a href="https://www.instagram.com/giih__zz/" target="_blank"><i class='bx bxl-instagram-alt' ></i></a>
+      </div>
+  
+    </section>
+  </main>
+
+	<!----end section --->
+	<section class="end">
+		<div class="last-text">
+			<p>by Gisseli Rocha <img src="./img/bussola.svg" alt=""> All Rights Reserved.</p>
+		</div>
+
+		<div class="top">
+			<a href="#home"><i class='bx bx-up-arrow-alt' ></i></a>
+		</div>
+	</section>
+
+
+  <!--- link-script --->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+  <script src="script.js"></script>
+</body>
+</html>

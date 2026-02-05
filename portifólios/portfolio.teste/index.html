@@ -1,0 +1,407 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gisseli Rocha - Portfólio</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="style.scss">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="container">
+            <div class="nav-wrapper">
+                <div class="logo">GR</div>
+                
+                <div class="nav-menu" id="navMenu">
+                    <a href="#inicio" class="nav-link">Início</a>
+                    <a href="#sobre" class="nav-link">Sobre</a>
+                    <a href="#habilidades" class="nav-link">Habilidades</a>
+                    <a href="#projetos" class="nav-link">Projetos</a>
+                    <a href="#experiencia" class="nav-link">Experiência</a>
+                    <a href="#contato" class="nav-link">Contato</a>
+                    <button class="theme-toggle" id="themeToggle">
+                        <i class="fas fa-moon"></i>
+                    </button>
+                </div>
+
+                <button class="mobile-toggle" id="mobileToggle">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero">
+        <div class="hero-background">
+            <div class="blob blob-1"></div>
+            <div class="blob blob-2"></div>
+        </div>
+        
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <div class="hero-badge fade-in">
+                        <span>👋 Olá, meu nome é</span>
+                    </div>
+                    <h1 class="hero-title fade-in-up">Gisseli Rocha</h1>
+                    <p class="hero-subtitle fade-in-up">Desenvolvedora Web Full Stack + Mobile</p>
+                    <p class="hero-description fade-in-up">
+                        Comprometida em desenvolver soluções inteligentes que sejam de usabilidade e 
+                        inovação para transformar ideias em realidade.
+                    </p>
+                    <div class="hero-buttons fade-in-up">
+                        <a href="#projetos" class="btn btn-primary">Ver Projetos</a>
+                        <a href="#contato" class="btn btn-outline">Entre em Contato</a>
+                    </div>
+                    <div class="hero-social fade-in">
+                        <a href="https://github.com/gisselisilva" target="_blank" class="social-link">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://linkedin.com" target="_blank" class="social-link">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="mailto:gisseli@example.com" class="social-link">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+                <div class="hero-image fade-in-up">
+                    <div class="image-wrapper">
+                        <div class="image-glow"></div>
+                        <img src="assets/WhatsApp Image 2025-10-17 at 13.47.21.jpeg" alt="Gisseli Rocha">
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <div class="scroll-indicator">
+            <i class="fas fa-chevron-down"></i>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="sobre" class="about">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Sobre <span class="gradient-text">Mim</span></h2>
+                <div class="title-underline"></div>
+            </div>
+
+            <div class="about-content">
+                <div class="about-text">
+                    <p>
+                        Tenho 18 anos concluí o ensino médio em 2025. Atuei como assistente
+                        administrativo na Prefeitura de Itatiaia, onde desenvolvi habilidades
+                        como organização, trabalho em equipe e uso do Excel.
+                    </p>
+                    <p>
+                        Atualmente curso Técnico em Desenvolvimento de Sistemas pela Jaguar Land Rover
+                        e faço um curso de Frontend no Senai, área pela qual tenho grande interesse.
+                    </p>
+                </div>
+
+                <div class="stats-grid">
+                    <div class="stat-card">
+                        <div class="stat-icon">
+                            <i class="fas fa-code"></i>
+                        </div>
+                        <div class="stat-content">
+                            <div class="stat-value">3+</div>
+                            <div class="stat-label">Projetos concluídos</div>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon">
+                            <i class="fas fa-briefcase"></i>
+                        </div>
+                        <div class="stat-content">
+                            <div class="stat-value">1</div>
+                            <div class="stat-label">Anos de Experiência</div>
+                        </div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon">
+                            <i class="fas fa-award"></i>
+                        </div>
+                        <div class="stat-content">
+                            <div class="stat-value">7+</div>
+                            <div class="stat-label">Tecnologias</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="habilidades" class="skills">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Minhas <span class="gradient-text">Habilidades</span></h2>
+                <div class="title-underline"></div>
+            </div>
+
+            <div class="skills-grid">
+                <div class="skill-category">
+                    <div class="skill-header blue-gradient">
+                        <i class="fas fa-code"></i>
+                        <h3>Frontend</h3>
+                    </div>
+                    <div class="skill-body">
+                        <span class="skill-tag">HTML5</span>
+                        <span class="skill-tag">CSS3</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">SCSS</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <div class="skill-header purple-gradient">
+                        <i class="fas fa-database"></i>
+                        <h3>Backend</h3>
+                    </div>
+                    <div class="skill-body">
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">SQL</span>
+                        <span class="skill-tag">API REST</span>
+                    </div>
+                </div>
+
+                <div class="skill-category">
+                    <div class="skill-header orange-gradient">
+                        <i class="fas fa-wrench"></i>
+                        <h3>Ferramentas</h3>
+                    </div>
+                    <div class="skill-body">
+                        <span class="skill-tag">Git</span>
+                        <span class="skill-tag">VS Code</span>
+                        <span class="skill-tag">Workbench</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projetos" class="projects">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Meus <span class="gradient-text">Projetos</span></h2>
+                <div class="title-underline"></div>
+            </div>
+
+            <div class="projects-grid">
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-badge">
+                            <i class="fas fa-check-circle"></i>
+                            Concluído
+                        </div>
+                        <img src="https://images.unsplash.com/photo-1542779283-429940ce8336?w=800&h=600&fit=crop" alt="API Pokémon">
+                        <div class="project-overlay"></div>
+                    </div>
+                    <div class="project-content">
+                        <h3>API Pokémon</h3>
+                        <p>
+                            Fiz um projeto que consiste em uma API desenvolvida no VS Code, onde foram cadastrados 
+                            cerca de 50 pokémons e disponibilizadas suas informações de forma acessível para quem 
+                            quiser consumir ou visualizar esses dados.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">CSS</span>
+                            <span class="tag">HTML</span>
+                            <span class="tag">JS</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://gisselisilva.github.io/POKEDEX/" class="btn btn-primary btn-sm">
+                                <i class="fas fa-external-link-alt"></i>
+                                Ver Demo
+                            </a>
+                            <a href="#" class="btn btn-outline btn-sm">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-badge">
+                            <i class="fas fa-check-circle"></i>
+                            Concluído
+                        </div>
+                        <img src="https://images.unsplash.com/photo-1555421689-491a97ff2040?w=800&h=600&fit=crop" alt="Página de Login">
+                        <div class="project-overlay"></div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Página de Login</h3>
+                        <p>
+                            Meu projeto é um sistema de login web simples, desenvolvido com interface gráfica clara 
+                            e funcional, que permite aos usuários fazerem autenticação através de campos para usuário 
+                            e senha.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://gisselisilva.github.io/LOGIN" class="btn btn-primary btn-sm">
+                                <i class="fas fa-external-link-alt"></i>
+                                Ver Demo
+                            </a>
+                            <a href="#" class="btn btn-outline btn-sm">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card">
+                    <div class="project-image">
+                        <div class="project-badge">
+                            <i class="fas fa-check-circle"></i>
+                            Concluído
+                        </div>
+                        <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?w=800&h=600&fit=crop" alt="HackÉtica">
+                        <div class="project-overlay"></div>
+                    </div>
+                    <div class="project-content">
+                        <h3>HackÉtica</h3>
+                        <p>
+                            Participamos de um projeto em grupo no HackÉtica, onde desenvolvemos uma passaporte 
+                            digital inovador. Essa ferramenta foi criada para ajudar os usuários a entender e 
+                            controlar os termos que aceitam em diferentes aplicativos.
+                        </p>
+                        <div class="project-tags">
+                            <span class="tag">HTML</span>
+                            <span class="tag">CSS</span>
+                            <span class="tag">JS</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://isabelle-andrade.github.io/HACK-ETICA/" class="btn btn-primary btn-sm">
+                                <i class="fas fa-external-link-alt"></i>
+                                Ver Demo
+                            </a>
+                            <a href="#" class="btn btn-outline btn-sm">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experiencia" class="experience">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Minha <span class="gradient-text">Experiência</span></h2>
+                <div class="title-underline"></div>
+            </div>
+
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header work-header">
+                            <div class="timeline-icon">
+                                <i class="fas fa-briefcase"></i>
+                            </div>
+                            <div class="timeline-info">
+                                <h3>Assistente Administrativo</h3>
+                                <p class="company">Prefeitura de Itatiaia</p>
+                                <p class="period">2023 - 2024</p>
+                            </div>
+                        </div>
+                        <div class="timeline-body">
+                            <p>Atividades referentes a arquivo de processos</p>
+                            <ul>
+                                <li>Elaboração de planilhas no Excel</li>
+                                <li>Ajuda na organização do ambiente</li>
+                                <li>Auxílio na protocolagem de processos</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content">
+                        <div class="timeline-header education-header">
+                            <div class="timeline-icon">
+                                <i class="fas fa-graduation-cap"></i>
+                            </div>
+                            <div class="timeline-info">
+                                <h3>Técnico em Desenvolvimento de Sistema</h3>
+                                <p class="company">Jaguar Land Rover</p>
+                                <p class="period">2025 - Presente</p>
+                            </div>
+                        </div>
+                        <div class="timeline-body">
+                            <p>Aprendi sobre:</p>
+                            <ul>
+                                <li>Documentação Técnica</li>
+                                <li>Fundamentos de TI</li>
+                                <li>Arquitetura de redes</li>
+                                <li>Lógica de Programação</li>
+                                <li>Banco de dados</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contato" class="contact">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Vamos trabalhar <span class="gradient-text">juntos!</span></h2>
+                <div class="title-underline"></div>
+                <p class="section-subtitle">Estou sempre aberto a novas oportunidades e projetos interessantes</p>
+            </div>
+
+            <div class="contact-wrapper">
+                <div class="contact-links">
+                    <a href="mailto:gisseli@example.com" class="contact-card red-gradient">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <h3>Gmail</h3>
+                    </a>
+                    <a href="https://linkedin.com" target="_blank" class="contact-card blue-gradient">
+                        <div class="contact-icon">
+                            <i class="fab fa-linkedin"></i>
+                        </div>
+                        <h3>LinkedIn</h3>
+                    </a>
+                    <a href="https://github.com/gisselisilva" target="_blank" class="contact-card dark-gradient">
+                        <div class="contact-icon">
+                            <i class="fab fa-github"></i>
+                        </div>
+                        <h3>GitHub</h3>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>© 2025 Gisseli Silva. Todos os direitos reservados.</p>
+            <p class="footer-made">
+                Desenvolvido com <i class="fas fa-heart"></i> usando HTML, SCSS e JavaScript
+            </p>
+        </div>
+    </footer>
+
+    <script src="main.js"></script>
+</body>
+</html>
